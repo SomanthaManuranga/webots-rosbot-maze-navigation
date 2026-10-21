@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Webots per-user state and build output
+worlds/.*.wbproj
+worlds/*.wbproj
+worlds/.*.jpg
+controllers/**/build/
+*.o
+*.d
+
+# Map dumps written by the controller
+*.npy
+
+# Recordings (full videos are hosted externally)
+*.mp4
+*.mov
+
+# OS / editor
+.DS_Store
+__MACOSX/
+Thumbs.db
+.vscode/
+.idea/
+.claude/

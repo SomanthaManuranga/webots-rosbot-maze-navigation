@@ -1,0 +1,6 @@
+# Install into the Python interpreter that Webots uses (Tools → Preferences → Python command).
+# The `controller` module is provided by Webots itself.
+numpy>=1.24
+scipy>=1.10
+opencv-python>=4.8
+pygame>=2.5

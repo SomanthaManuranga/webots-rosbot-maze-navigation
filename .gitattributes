@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
+
+# Webots scene files count as data, not code, in GitHub's language bar
+*.wbt linguist-detectable=false
+*.proto linguist-detectable=false
